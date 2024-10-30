@@ -1,0 +1,36 @@
+/*@import "../../../styles/variables.css"; /* Use .css instead of .scss if using CSS variables */
+
+/* Styles for the input-wrapper */
+.input-wrapper {
+    color: #333; /* Replace $text-color with actual value */
+    font-size: 16px;
+    text-align: start;
+}
+
+.input-wrapper label {
+    margin-bottom: 10px;
+}
+
+.input-wrapper .input-content {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.input-wrapper .input-content .icon {
+    padding: 12px;
+    background-color: #9428ff; /* Replace $primary-color with actual value */
+    border-radius: 0 8px 8px 0;
+}
+
+.input-wrapper .input-content .icon img {
+    height: 20px;
+}
+
+.input-wrapper .input-content input {
+    border: none;
+    border-radius: 8px 0 0 8px;
+    background-color: #f0f0f0; /* Replace $gray-secondary-bg with actual value */
+    padding: 12px 0 12px 20px;
+    width: 100%;
+}
